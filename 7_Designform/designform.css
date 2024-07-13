@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, sans-serif;  
+    display: flex; 
+    size: 10ch;         
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #343339;
+
+}
+
+.container
+{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.front{
+    width: 220px;
+    height: 350px;
+    background-color: white;
+    border-radius: 25px;
+    float:left;
+    margin-top: 25px;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.back
+{
+    width: 220px;
+    height: 350px;
+    background-color: white;
+    border-radius: 25px;
+    float:right;
+    margin-top: 25px;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dp
+{
+    width: 100px;
+    position:relative;
+    height: 32%;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    
+}
+
+.sign
+{
+    width: 100px;
+    position:relative;
+    height: 32%;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    
+}
+
+
+.bottom h1{
+    font-size: 18px;
+    color:gary;
+    position: relative;
+    top: 5px;
+}
+
+.bottom span{
+    color: #343339;
+}
+
+.bottom h5{
+    font-size: 18px;
+    color:#343339;
+    position: relative;
+    top: -5px;
+}
+
+.bottom h3{
+    font-size: 18px;
+    color:#e24d35;
+    position: relative;
+    top: 35px;
+}
+
+.info
+{
+    font-size: 15px;
+    margin: 10px 20px;
+    text-transform: uppercase;
+}
+.empid
+{
+    margin-top: 40px;
+}
+.phone
+{
+    width: 41%;
+    text-align: right;
+}
+
+.address {
+    margin-left: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.address span {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.signature {
+    margin-left: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.numberr
+{
+    margin-right: 5%;
+    text-align: right;
+    
+}
+
+.head
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.head1
+{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 11px;
+}
+
+.head2
+{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 11px;
+}

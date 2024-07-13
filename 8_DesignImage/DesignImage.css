@@ -1,0 +1,105 @@
+.body
+{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box
+{
+    height: 236px;
+    width: 710px;      
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.leftbox
+{
+    height: 226px;
+    width: 49%;
+    /* background-color: blue; */
+    margin-left: 5px;
+    
+}
+
+.rightbox
+{
+    height: 226px;
+    width: 49%;
+    /* background-color: rgb(185, 255, 206); */
+    margin-left: 5px;
+    
+}
+.header
+{
+    /* background: crimson; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 37px;
+}
+
+.lionimage
+{
+    height: 37px;
+    margin: 5px 5px 5px 5px;
+}
+
+.govern
+{
+    height: 33px;
+    margin: 5px 5px 5px 5px;
+}
+    
+.bodypart
+{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: white; 
+    
+} 
+.picture
+{
+    /* background: darkgrey; */
+    height: 100%;
+    width: 100px;
+
+}
+.data
+{
+    /* background: rgb(223, 113, 113); */
+    height: 100%;
+    width: 170px;
+     margin: 10px 0px 10px 6px; 
+    /* font-size: 12px */
+}
+.qr
+{
+    /* background: rgb(32, 156, 39); */
+    height: 100%;
+    width: 22px;
+
+}
+.photo
+{
+    height: 100px;
+}
+
+.qr
+{
+    height: 80px;
+    width: 80px; 
+    margin: 13px 0px 0px 6px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+
+.footer
+{
+    
+    margin: 0px 0px 10px 30px;
+}
